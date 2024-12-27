@@ -1,0 +1,148 @@
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+.watch-section {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.watch-image {
+  width: 200px;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.side-view {
+  width: 400px;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.view-toggle-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007aff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.view-toggle-link:hover {
+  text-decoration: underline;
+}
+
+.product-title {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.product-description {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 700;
+}
+
+.product-price {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.options {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.size-options {
+  display: flex;
+  gap: 10px;
+}
+
+.option-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-button:hover {
+  background-color: #e0e0e0;
+}
+
+.option-button.active {
+  background-color: #007aff;
+  color: #fff;
+}
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: transform 0.5s ease;
+}
+
+.band-image {
+  width: 150px;
+  height: auto;
+}
+
+.nav-btn {
+  background: #007aff;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: #005bb5;
+}
+
+.watch-image {
+  width: 200px;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.watch-image.side-view {
+  transform: rotateY(180deg); /* Side view simulation */
+}
+

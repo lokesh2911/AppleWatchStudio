@@ -1,0 +1,115 @@
+.logo-container {
+    display: flex;                
+    align-items: center;          
+    position: absolute;           
+    top: 20px;
+    left: 20px;   
+    color: #000;                              
+  }
+  .logo {
+    width: 40px;                  
+    margin-right: 10px;           
+  }
+  .logo-title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+    text-decoration: none;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .dropdown-content p {
+    margin: 10px 0;
+    width: auto;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .dropdown-content p:hover {
+    color: blue;
+  }
+  
+  .dropdown-content hr {
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .selected-item {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .save-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .save-btn:hover {
+    background-color: #0056b3;
+  }
+  
